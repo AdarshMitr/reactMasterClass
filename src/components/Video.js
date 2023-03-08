@@ -1,5 +1,7 @@
 import "./Video.css";
 function Video({ id,title, channel, views, time, verified,children }) {
+
+  console.log('render PlayButton')
   return (
     <>
       <div className="container">
